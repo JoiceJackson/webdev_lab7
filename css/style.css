@@ -1,1 +1,37 @@
+body {
+	font-family: montserrat, popis;
+	text-align: center;
+	background: #f4f4f4;
+}
 
+h1 {
+	color: #333;
+	text-transform: uppercase;
+}
+
+#planets {
+	width: 80%;
+	margin: auto;
+	border-collapse: collapse;
+	background-color: #fff;
+	box-shadow: 0 0 10px gba(0, 0, 0, 0.1);
+}
+
+#planets th, #planets td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
+#planets tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#planets img {
+	width: 80px;
+	height: auto;
+}
+
+#planets tr:hover {
+	background-color: #ddd;
+}
